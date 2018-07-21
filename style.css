@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000;
+  perspective: 1px;
+  font-family: 'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               arial, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.content {
+  width: 700px;
+  padding: 20px;
+  margin: 60px 20px;
+  background: rgba(255, 255, 255, .75);
+  box-shadow: .5em .5em .5em rgba(0, 0, 0, .4);
+}
+
+#headshot {
+  width: 220px;
+  border-radius: 50%;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 0;
+  padding: 20px;
+}
+
+
+#card1 {
+  background-color: #B4b4b4;
+}
+
+#card2 {
+  background-color: #4b4b4b;
+}
+
+
